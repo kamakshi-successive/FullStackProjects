@@ -1,0 +1,28 @@
+    .about_part {
+        margin-top: 104px;
+        .about_Section {
+            display: flex;
+            flex-wrap: wrap;
+            // height: 100vh;
+            .left_section {
+                width: 50%;
+                .card_section {
+                    width: 80%;
+                }
+            }
+            .right_section {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .vedio_section {
+                    width: 80%;
+                    box-shadow: 40px -33px $primary_color;
+                }
+                .button_func {
+                    position: absolute;
+                }
+            }
+        }
+    }

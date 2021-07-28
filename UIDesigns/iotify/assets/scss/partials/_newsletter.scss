@@ -1,0 +1,51 @@
+.newslettter_section {
+    display: flex;
+    background: linear-gradient(241deg, #4f2483 0%, #171b50 100%);
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    padding: 24px 0px;
+    align-items: center;
+    .text_part {
+        opacity: 0.7;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .text_part_one {
+        opacity: 0.9;
+        margin-top: 7px;
+        margin-bottom: 39px;
+    }
+    .text_part_two {
+        opacity: 0.5;
+    }
+    .form_button {
+        display: flex;
+        justify-content: center;
+        .form-control {
+            margin-right: -1px;
+            width: 57%;
+            outline: none;
+            padding-left: 10px;
+        }
+        .button_hover:hover {
+            border: 2px solid $white;
+        }
+    }
+}
+
+.newslettter_section::before {
+    content: url('../images/Path_3957-min.png');
+    width: 4%;
+    position: absolute;
+    left: 55px;
+    transform: rotate( -90deg);
+}
+
+.newslettter_section::after {
+    content: url('../images/Ellipse_157-min.png');
+    position: absolute;
+    right: -141px;
+    margin-top: 181px;
+}

@@ -1,0 +1,35 @@
+.integration_parent_class {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    // height: 75vh;
+    .integration_left_part {
+        background-image: url('../images/back_rt.png');
+        background-size: 100%;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        .bg_img {
+            width: 82%;
+        }
+    }
+    .integration_right_part {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card {
+            display: block;
+            width: 83%;
+            padding-top: 40px;
+            .text {
+                font-size: 38px;
+                font-weight: normal;
+            }
+            .text_one {
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.service_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 104px 0px; // height: 100vh;
+    .left_section {
+        width: 50%;
+        background-image: url('../images/red.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150%;
+        background-position: bottom;
+        background-position-x: -158px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .bg_img {
+            width: 71%;
+        }
+    }
+    .right_section {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        .card_section {
+            width: 87%;
+        }
+    }
+}

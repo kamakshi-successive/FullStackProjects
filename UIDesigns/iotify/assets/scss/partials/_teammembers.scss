@@ -1,0 +1,57 @@
+.team_member {
+    padding: 115px 0px;
+    .parent_class {
+        @extend .d-flex;
+        justify-content: space-evenly;
+        width: 100%;
+        .card {
+            width: 30%;
+            background-color: $white;
+            justify-content: flex-start;
+            position: relative;
+            margin-bottom: 34px;
+            .bg_img {
+                width: 100%;
+            }
+            .card_text {
+                margin-left: 27px;
+            }
+            .footer-icons {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                right: 15px;
+                bottom: 5rem;
+                a.visible {
+                    margin-top: 9px;
+                    margin-bottom: 9px;
+                }
+                .linkdin,
+                .facebook {
+                    margin-bottom: 10px;
+                    opacity: 0;
+                    border: 2px solid white;
+                }
+                .linkdin:hover,
+                .facebook:hover {
+                    color: $white;
+                    border: 2px solid white;
+                    background: transparent;
+                }
+            }
+        }
+    }
+    .card:hover {
+        .footer-icons .linkdin,
+        .footer-icons .facebook {
+            opacity: 1;
+        }
+    }
+}
+
+.bg_cir_img {
+    background-image: url('../images/cir.png');
+    background-size: 125%;
+    background-position-x: -301px;
+    background-repeat: no-repeat;
+}

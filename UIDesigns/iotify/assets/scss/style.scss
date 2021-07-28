@@ -1,0 +1,40 @@
+@import './variable';
+@import './common.scss';
+@import './breakpoints.scss';
+@import './global.scss';
+@import './mixin.scss';
+@import './partials/header.scss';
+@import './partials/iot_main.scss';
+@import './partials/footer.scss';
+@import './partials/usecases.scss';
+@import './partials/showcase.scss';
+@import './partials/teammembers.scss';
+@import './partials/integration.scss';
+@import './partials/testing.scss';
+@import './partials/newsletter.scss';
+@import './partials/pricing';
+@import './partials/blog';
+@import './partials/about';
+@import './partials/brain_storm.scss';
+@import './partials/services';
+@import './partials/testimonial';
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font_poppins;
+    background-color: $white_smoke;
+    color: $white;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1900px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,85 @@
+.profile_moivation--two {
+  .moivation--two {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+    .left_part {
+      width: 50%;
+      position: relative;
+      .image_one {
+        width: 33rem;
+        position: relative;
+        top: 4rem;
+      }
+      .image_two {
+        width: 20rem;
+        position: absolute;
+        top: 23%;
+        left: 62%;
+        z-index: -11;
+      }
+      .image_three {
+        position: absolute;
+        bottom: 4%;
+        z-index: -11;
+        width: 20rem;
+        left: 62%;
+      }
+    }
+    .right_part {
+      width: 50%;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      align-self: center;
+      .small_circle {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        z-index: 11;
+      }
+      .color_props1 {
+        background-color: #ed5454;
+        right: 12rem;
+        top: 9rem;
+      }
+
+      .color_props2 {
+        background-color: #006fe3;
+        right: 4rem;
+        top: 12rem;
+      }
+      .motivation--content {
+        width: 80%;
+        padding: 20px;
+        .motivation--para {
+          color: $grey;
+          font-size: 15px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: -0.23px;
+          line-height: 27px;
+        }
+        .motivation--head {
+          color: $black;
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: -0.61px;
+          line-height: 55.35px;
+        }
+        .motivation--desc {
+          color: $lightgrey;
+          font-size: 15px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: -0.23px;
+          line-height: 27px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.project_goal {
+  position: relative;
+  .project_goals--part {
+    min-height: 65vh;
+    height: auto;
+    padding: 4rem 1rem 0rem;
+    .head1 {
+      color: $black;
+      font-size: 32px;
+      font-weight: 600;
+    }
+    .project_goals {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+      .img {
+        height: 4px;
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+        z-index: -11;
+      }
+      .img1 {
+        height: 4px;
+        position: absolute;
+        top: 3rem;
+        left: 27rem;
+        z-index: -11;
+      }
+      .img2 {
+        height: 4px;
+        position: absolute;
+        top: 3rem;
+        right: 13rem;
+        z-index: -11;
+      }
+      .project_goals--box {
+        width: 20%;
+
+        .circle_img {
+          position: relative;
+          .background_img1 {
+            width: 119px;
+            height: 90px;
+            opacity: 0.95;
+          }
+          .text {
+            position: absolute;
+            left: 3rem;
+            color: white;
+            bottom: 2.5rem;
+          }
+        }
+        .head2 {
+          color: $black;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        .para1 {
+          color: $cuteGrey;
+          font-size: 10px;
+          line-height: 21px;
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+  .bg_img {
+    position: absolute;
+    right: -14rem;
+    top: -12rem;
+    z-index: -1;
+  }
+}

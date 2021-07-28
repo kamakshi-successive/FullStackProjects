@@ -1,0 +1,201 @@
+@import './variable';
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    color: $white;
+    background-color: $redical_red;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    transition: 0.2s;
+}
+
+.round_button {
+    border-bottom-right-radius: 100% 86px;
+    border-top-right-radius: 100% 94px;
+    padding: 11px 26px;
+    transition: 0.2s;
+    border: 1px solid $redical_red;
+}
+
+.round_button:hover {
+    color: $white;
+    transition: 0.2s;
+    border: 1px solid $white;
+}
+
+.rounded_button {
+    border-radius: 25px;
+    transition: 0.2s;
+    border: 2px solid $redical_red;
+}
+
+.circle_button {
+    padding: 0px;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 47px;
+    transition: 0.2s;
+}
+
+.fa {
+    padding: 15px;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 50px;
+    background-color: $white;
+    transition: 0.2s;
+}
+
+.fa-phone {
+    background-color: $redical_red;
+    color: $white;
+}
+
+.fa-linkedin {
+    color: $primary_color;
+}
+
+.fa-linkedin:hover {
+    color: $white;
+    background: $redical_red;
+}
+
+.fa-facebook {
+    color: $primary_color;
+}
+
+.fa-facebook:hover {
+    color: $white;
+    background: $redical_red;
+}
+
+.fa-twitter {
+    color: $primary_color;
+}
+
+.fa-twitter:hover {
+    color: $white;
+    background: $redical_red;
+}
+
+.form_part {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    .form-control {
+        height: 38px;
+        opacity: 0.3;
+        padding-left: 15px;
+        margin-top: 5px;
+        border: 1px solid #707070;
+        background-color: rgb(241, 236, 236);
+        outline: none;
+        color: $white;
+    }
+}
+
+.white {
+    color: $white;
+}
+
+.redical_red {
+    color: $redical_red;
+}
+
+.blue_whale {
+    color: $blue_whale;
+}
+
+.sapphire {
+    color: $sapphire;
+}
+
+.storm_greyish {
+    color: $storm_greyish;
+}
+
+.storm_grey {
+    color: $storm_grey;
+}
+
+.white {
+    color: $white;
+}
+
+.oxford_blue {
+    color: $oxford_blue;
+}
+
+.light_purple {
+    color: $light_purple;
+}
+
+.swamp {
+    color: $swamp;
+}
+
+.eclipse {
+    color: $eclipse;
+}
+
+.nero {
+    color: $nero;
+}
+
+.cloud_burst {
+    color: $cloud_burst;
+}
+
+.rock_blue {
+    color: $rock_blue;
+}
+
+.steel_grey {
+    color: $steel_grey;
+}
+
+.dark_greyish {
+    color: $dark_greyish;
+}
+
+.dim_gray {
+    color: $dim_gray;
+}
+
+.dark_choci {
+    color: $dark_choci;
+}
+
+.grey {
+    color: $grey;
+}
+
+.blackish {
+    color: $blackish;
+}
+
+.black_pearl {
+    color: $black_pearl;
+}
+
+.shuttle_grey {
+    color: $shuttle_grey;
+}
+
+.align_center {
+    text-align: center;
+}

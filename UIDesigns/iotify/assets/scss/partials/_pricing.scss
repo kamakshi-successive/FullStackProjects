@@ -1,0 +1,80 @@
+.background {
+    padding: 91px 0px;
+    background-image: url('../images/im.png');
+    background-size: 180%;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.parent_class {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 57px;
+    .card_section {
+        background-color: $white;
+        padding: 74px;
+        width: 30%;
+        margin-bottom: 39px;
+        .cloud_burst_color {
+            color: $cloud_burst;
+        }
+        .blue_whale_color {
+            color: $blue_whale;
+        }
+        .rock_blue_color {
+            color: $rock_blue;
+        }
+        .pricing_button {
+            color: $redical_red;
+            background-color: rgba(250, 41, 82, 0.1);
+        }
+        .table_section {
+            margin-bottom: 30px;
+            margin-top: 10px;
+            .rock_blue_color {
+                color: $rock_blue;
+            }
+            .steel_grey_color {
+                color: $steel_grey;
+            }
+            .line_spacing {
+                padding-left: 84px;
+            }
+            .tick_spacing {
+                padding-left: 9px;
+                background-image: url('../../images/section4/Forma_1.png');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        .font-size {
+            font-size: 32px;
+        }
+        .height_space {
+            margin-top: -22px;
+        }
+    }
+    .card_section:hover {
+        background: linear-gradient(241deg, #4f2483 0%, #171b50 100%);
+        transition: 0.2s;
+        .pricing_button {
+            background-color: $redical_red;
+            color: $white;
+        }
+        .cloud_burst_color,
+        .blue_whale_color,
+        .rock_blue_color {
+            color: $white;
+        }
+        .table_section {
+            .steel_grey_color {
+                color: $white;
+            }
+            .tick_spacing {
+                background-image: url('../../images/section4/Forma_1 (1).png');
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.profile_moivation--three {
+  .moivation--three {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .left_part {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      .motivation--content {
+        width: 80%;
+        padding: 20px;
+        .motivation--para {
+          color: $grey;
+          font-size: 15px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: -0.23px;
+          line-height: 27px;
+        }
+        .motivation--head {
+          color: $black;
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: -0.61px;
+          line-height: 55.35px;
+        }
+        .motivation--desc {
+          color: $lightgrey;
+          font-size: 15px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: -0.23px;
+          line-height: 27px;
+        }
+      }
+    }
+    .right_part {
+      width: 50%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      .small_circle {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        z-index: -11;
+      }
+      .color_props1 {
+        background-color: #24ca99;
+        right: 12rem;
+        top: -10rem;
+      }
+
+      .color_props2 {
+        background-color: #fdb935;
+        right: 4rem;
+        top: -4rem;
+      }
+      .small_circle1 {
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        z-index: -11;
+      }
+      .color_props3 {
+        top: 0rem;
+        left: 0rem;
+        background-color: #4056ff;
+      }
+
+      .color_props4 {
+        top: 4rem;
+        left: 6rem;
+        background-color: #ff4054;
+      }
+      .image_one {
+        position: absolute;
+        width: 23rem;
+        z-index: -11;
+        left: -14px;
+        top: 125px;
+      }
+      .image_two {
+        width: 33rem;
+      }
+    }
+  }
+}

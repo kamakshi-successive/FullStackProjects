@@ -1,0 +1,31 @@
+.testing_part {
+    @extend .d-flex;
+    width: 100%;
+    // height: 100vh;
+    box-shadow: 0 73px 57px rgba(168, 168, 168, 0.22);
+    margin-bottom: 9%;
+    background: linear-gradient(241deg, #4f2483 0%, #171b50 100%);
+    .testing_left_part {
+        width: 50%;
+        padding: 54px;
+        .form_part {
+            color: white;
+            margin-top: 40px;
+            width: 80%;
+        }
+        .button_prop {
+            margin-top: 40px;
+        }
+        .button_prop:hover {
+            border: 2px solid $white;
+        }
+    }
+    .testing_right_part {
+        width: 50%;
+        .airplane_bg_img {
+            width: 80%;
+            margin-top: -13px;
+            margin-bottom: -20px;
+        }
+    }
+}

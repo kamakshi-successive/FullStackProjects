@@ -1,0 +1,119 @@
+.user_person {
+  position: relative;
+  .user_persona--part {
+    min-height: 80vh;
+    height: auto;
+    .persona_heading {
+      color: $black;
+    }
+    .user_persona {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 5rem;
+      .user_box{
+        width: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+        .persona_sec--part {
+        width: 19rem;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+        position: relative;
+        margin: 6rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .persona_img {
+          position: absolute;
+          top: -4rem;
+          width: 8rem;
+        }
+        .persona_name {
+          color: $black;
+          margin: 0;
+          margin-top: 5rem;
+          font-size: 16px;
+          letter-spacing: normal;
+        }
+        .persona_occupation {
+          color: $darkGrey;
+          margin: 0;
+          font-size: 11px;
+          letter-spacing: normal;
+        }
+        .persona_detail {
+          color: $cuteGrey;
+          width: 268px;
+          height: 130px;
+          color: #afafaf;
+          font-family: Poppins;
+          font-size: 11px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: -0.17px;
+          line-height: 19px;
+          text-align: center;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+        }
+         .border_line {
+        height: 177px;
+        position: absolute;
+        border-left: 1px solid #F3F3F3;
+        bottom: -11em;
+        z-index: -1111;
+    }
+    .border_line1 {
+      height: 343px;
+      position: absolute;
+      border-left: 1px solid #F3F3F3;
+      top: -19rem;
+      z-index: -1111;
+  }
+    .small_circle {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      z-index: 11;
+    }
+
+    .color_props1 {
+      background-color: #ff4054;
+top:-8rem    }
+    .color_props2 {
+      background-color: #02db96;
+top:-12rem;    }    
+    .color_props3 {
+      background-color: #4056ff;     
+      bottom: -7rem;
+    }
+      }
+     
+
+      .border_one {
+        border-bottom: 5px solid $rani_pink;
+      }
+
+      .border_two {
+        border-bottom: 5px solid $orange;
+      }
+      .border_three {
+        border-bottom: 5px solid $green;
+      }
+    }
+    }
+  }
+  .bg_img {
+    position: absolute;
+    z-index: -11;
+    right: 0;
+    width: 168px;
+    right: -7rem;
+    top: 10rem;
+  }
+}

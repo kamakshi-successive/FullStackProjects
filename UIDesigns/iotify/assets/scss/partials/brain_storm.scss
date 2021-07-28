@@ -1,0 +1,41 @@
+.brainstorm_section {
+    display: flex;
+    flex-wrap: wrap;
+    // height: 100vh;
+    margin-bottom: 35px;
+    .left_section {
+        width: 50%;
+        .left_section_background {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top-right-radius: 50% 413px;
+            border-bottom-right-radius: 50% 413px;
+            background: linear-gradient(241deg, #4f2483 0%, #171b50 100%);
+            .bg_img {
+                margin-top: 7%;
+                margin-bottom: 7%;
+                margin-left: 11%;
+                width: 94%;
+            }
+        }
+    }
+    .right_section {
+        width: 50%;
+        .brainstorm_right_section {
+            background-image: url('../images/bk.png');
+            background-size: 176%;
+            background-position: bottom;
+            display: flex;
+            justify-content: center;
+            .card_section {
+                width: 78%;
+                .rounded_button:hover {
+                    border: 2px solid $redical_red;
+                    color: $redical_red;
+                    background: $white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.main_color--part {
+  min-height: 70vh;
+  height: auto;
+  .upper_part {
+    display: flex;
+    align-items: center;
+    .color_head {
+      font-size: 24px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.36px;
+      line-height: 27px;
+    }
+    .sprite_img {
+      height: 10px;
+      width: 54px;
+      margin-right: 20px;
+    }
+  }
+  .lower_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    .color_part {
+      color: $grey;
+      .color_heading {
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.3px;
+        line-height: 27px;
+      }
+      .color_name {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.24px;
+        line-height: 27px;
+      }
+      .color_part--image {
+        width: 206px;
+      }
+    }
+  }
+}

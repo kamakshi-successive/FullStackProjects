@@ -1,0 +1,133 @@
+    .testcard_section {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        // height: 100vh;
+        margin: 50px 0px;
+        font-size: 18px;
+        .card {
+            border: none;
+            outline: none;
+            .small_card_section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                padding: 52px;
+                text-align: center;
+                width: 92% !important;
+                border-radius: 3px;
+                box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+                // opacity: 0.6;
+                background: linear-gradient(241deg, #4f2483 0%, #171b50 100%);
+                // transition: width height 1s;
+                .text_color {
+                    font-size: 14px;
+                }
+                .inverted_commas {
+                    width: 90px;
+                    opacity: 0.46;
+                    margin-bottom: -102px;
+                    margin-top: -26px;
+                }
+            }
+            .testimonial_author {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: -54px;
+                z-index: 22;
+                .margin_one {
+                    margin-top: 0px;
+                }
+                .margin {
+                    margin: -8px;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+    
+    .slick-initialized .slick-slide {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    button.slick-next.slick-arrow {
+        position: absolute;
+        right: 16%;
+        top: 135px;
+        font-size: 0;
+        border-radius: 50%;
+        padding: 26px;
+        background-size: 25px !important;
+        background-color: red !important;
+        background: url('../images/right.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 2px solid transparent;
+    }
+    
+    button.slick-next.slick-arrow:hover {
+        border: 2px solid white;
+    }
+    
+    button.slick-prev.slick-arrow {
+        position: absolute;
+        top: 126px;
+        z-index: 1;
+        left: 16%;
+        font-size: 0;
+        background-size: 25px !important;
+        padding: 26px;
+        background-color: white !important;
+        border-radius: 56%;
+        background: url('../images/left.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 2px solid transparent;
+    }
+    
+    button.slick-prev.slick-arrow:hover {
+        border: 2px solid grey;
+    }
+    
+    .slick-dots {
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+        li {
+            display: inline-block;
+            button {
+                transition: 0.2s background-color ease-in-out 0s;
+                border: none;
+                padding: 0;
+                color: transparent;
+                width: 10px;
+                height: 10px;
+                background-color: #777;
+                margin-right: 10px;
+                border-radius: 50%;
+            }
+            &.slick-active button {
+                background-color: $primary_color;
+            }
+        }
+    }
+    
+    .slick-slide.slick-active {
+        color: white;
+        // transform: scaleX(1.1);
+        // transform: scaleY(1.2);        
+        filter: brightness(1)
+    }
+    
+    .slick-slide {
+        color: grey;
+        filter: brightness(0.5)
+    }
+    
+    .testcard_section .small_card_section .small_card_section:active {
+        opacity: 1 !important;
+    }

@@ -1,0 +1,103 @@
+.profile_moivation--one {
+  .moivation--one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    height: auto;
+    .left_part {
+      width: 50%;
+      position: relative;
+      .small_circle {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        z-index: 11;
+      }
+      .color_props1 {
+        background-color: #ff4054;     
+        right: 14rem;
+        top: -0rem;
+      }
+
+      .color_props2 {
+        background-color: #4056ff;
+
+        right: 24rem;
+        top: -7rem;
+      }
+      .small_circle1 {
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        z-index: 11;
+      }
+      .color_props3 {
+        top: 9rem;
+        right: 16rem;
+        background-color: #02db96;
+      }
+
+      .motivation--content {
+        width: 74%;
+        padding: 20px;
+        .motivation--para {
+          color: $grey;
+          font-size: 15px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: -0.23px;
+          line-height: 27px;
+        }
+        .motivation--head {
+          color: $black;
+          font-weight: 500;
+          font-style: normal;
+          letter-spacing: -0.61px;
+          line-height: 55.35px;
+        }
+        .motivation--desc {
+          color: $lightgrey;
+          font-size: 15px;
+          font-weight: 300;
+          font-style: normal;
+          letter-spacing: -0.23px;
+          line-height: 27px;
+        }
+      }
+    }
+    .right_part {
+      width: 50%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      .small_circle {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        z-index: -11;
+      }
+      .color_props4 {
+        background-color: #b040ff;
+        top: -11rem;
+        left: 14.7rem;
+      }
+
+      .image_one {
+        width: 20rem;
+        position: relative;
+        left: -10rem;
+      }
+      .image_two {
+        width: 29rem;
+        position: absolute;
+        top: -9rem;
+        right: 10%;
+      }
+    }
+  }
+}

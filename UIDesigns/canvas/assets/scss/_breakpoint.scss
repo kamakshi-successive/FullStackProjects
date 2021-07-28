@@ -1,0 +1,1518 @@
+@media screen and (max-width: 1900px) {
+  .home_automation--part .automation--part .right_section {
+    .background_img2 {
+      bottom: 4rem;
+      left: 12rem;
+    }
+    .background_img4 {
+      top: 9.3rem;
+    }
+  }
+}
+@media screen and (max-width: 1600px) {
+  .home_automation--part .automation--part .right_section {
+    .background_img2 {
+      left: 10rem;
+    }
+  }
+}
+@media screen and (max-width: 1480px) {
+  .home_automation--part .automation--part .right_section {
+    .background_img2 {
+      left: 9rem;
+    }
+    .background_img5 {
+      top: 1rem;
+      left: 4rem;
+    }
+  }
+  // Performed Research Part
+  .performed_research--part {
+    .research--part {
+      .left_section {
+        .research_sub--part {
+          margin-top: 3.3rem;
+        }
+      }
+    }
+  }
+  // Reasearch Part
+  .res {
+    .research--part {
+      .research--part-section {
+        .column-part__two {
+          .image_one {
+            width: 24rem;
+          }
+          .image_two {
+            width: 19rem;
+          }
+          .image_three {
+            width: 16.9rem;
+          }
+        }
+      }
+    }
+  }
+  // Community Share part
+  .community_share--part {
+    .share--part {
+      .right_part {
+        .lower_part {
+          left: 0rem;
+          .share--part_token {
+            width: 158px;
+            height: 154px;
+          }
+        }
+      }
+    }
+  }
+  // Project Goal Part
+  .project_goal .project_goals--part .project_goals .project_goals--box .head2 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  // Home Automation Part
+  .home_automation--part {
+    .automation--part {
+      .right_section {
+        .background_img2 {
+          left: 7rem;
+        }
+      }
+    }
+  }
+  // Performed Research Part
+  .performed_research--part {
+    .research--part {
+      .left_section {
+        .upper_part {
+          width: 80%;
+          .background_img3 {
+            top: -16rem;
+            right: -6rem;
+          }
+        }
+      }
+    }
+  }
+  // main color part
+  .main_color--part {
+    .lower_part {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 1350px) {
+  // Home Automation part
+  .home_automation--part {
+    .automation--part {
+      .left_section {
+        .content-head {
+          .para1 {
+            font-size: 14px;
+          }
+          .content-part .head1 {
+            font-size: 2.1rem;
+          }
+        }
+      }
+      .right_section {
+        .background_img2 {
+          left: 6rem;
+          bottom: -1rem;
+        }
+        .background_img3 {
+          top: 19rem;
+          left: -1rem;
+        }
+      }
+    }
+  }
+  // Project Goals dots management
+  .project_goal {
+    .project_goals--part {
+      .project_goals {
+        .img1 {
+          left: 25rem;
+          z-index: -11;
+        }
+      }
+    }
+  }
+  // Performed research part
+  .performed_research--part {
+    .research--part {
+      .right_section {
+        .image_sprite1 {
+          left: -3.4rem;
+        }
+        .background_img1 {
+          left: 2rem;
+        }
+        .background_img2 {
+          right: 1rem;
+        }
+      }
+    }
+  }
+  // Motivation two part
+  .profile_moivation--two {
+    .moivation--two {
+      .left_part {
+        .image_one {
+          width: 28rem;
+        }
+        .image_two {
+          display: none;
+        }
+        .image_three {
+          display: none;
+        }
+      }
+    }
+  }
+  // Reasearch Part
+  .res .research--part .research--part-section {
+    .column-part__one {
+      .small_box {
+        height: 5rem;
+        width: 16rem;
+        font-size: 14px;
+      }
+    }
+    .column-part__three {
+      align-items: flex-end;
+      .small_box {
+        height: 5rem;
+        font-size: 14px;
+        width: 16rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h2 {
+    font-size: 32px;
+  }
+  // Home Automation part
+  .home_automation--part {
+    .automation--part {
+      .left_section .content-part .head1 {
+        font-size: 1.4rem;
+        margin-right: 3rem;
+      }
+      .right_section {
+        .background_img2 {
+          left: 4rem;
+        }
+
+        .background_img5 {
+          top: 0rem;
+          left: -1rem;
+        }
+      }
+    }
+  }
+  // Performed Research Part
+  .performed_research--part {
+    .research--part {
+      .left_section {
+        .research_sub--part {
+          margin-top: 2.3rem;
+        }
+      }
+      .right_section {
+        .image_sprite1 {
+          left: -4.4rem;
+        }
+      }
+    }
+  }
+  // Project Goals dots management12
+  .project_goal {
+    .project_goals--part {
+      .project_goals {
+        .img1 {
+          left: 22rem;
+        }
+        .img2 {
+          right: 10rem;
+        }
+      }
+    }
+  }
+  // User flow part
+  .user_flow {
+    .user_flows--part {
+      .border_img1,
+      .border_img2 {
+        display: none;
+      }
+      .row-part__one {
+        .border_img {
+          display: none;
+        }
+        .small_text {
+          display: none;
+        }
+        .box-size .user_para {
+          width: unset;
+        }
+      }
+      .row-part__two .border_img,
+      .row-part__three .border_img {
+        display: none;
+      }
+    }
+  }
+  // Profile motivation one
+  .profile_moivation--one {
+    .moivation--one {
+      .right_part {
+        .image_one {
+          width: 18rem;
+        }
+        .image_two {
+          width: 26rem;
+          top: -8rem;
+        }
+      }
+    }
+  }
+  // Profile Motivation three
+  .profile_moivation--three {
+    .moivation--three {
+      .right_part {
+        .image_one {
+          width: 18rem;
+          top: 7rem;
+          left: -6rem;
+        }
+        .image_two {
+          width: 28rem;
+        }
+      }
+    }
+  }
+
+  // Community share part
+  .community_share--part {
+    .share--part {
+      .left_part {
+        .share--part-img {
+          width: 28rem;
+        }
+      }
+      .right_part {
+        .upper_part {
+          margin-top: -8rem;
+        }
+        .lower_part {
+          .share--part_token {
+            width: 8rem;
+            height: 7rem;
+          }
+        }
+      }
+    }
+  }
+  .profile_moivation--two .moivation--two .right_part {
+    .color_props1 {
+      display: none;
+    }
+    .color_props2 {
+      display: none;
+    }
+  }
+  // Regular motivation part
+  .regular_motivation--part {
+    .motivation--part {
+      .right_part {
+        .phone_image {
+          width: 27rem;
+        }
+        .card_image {
+          width: 19rem;
+        }
+        .box-one {
+          top: 14%;
+        }
+        .box-two {
+          bottom: 49%;
+        }
+        .box-three {
+          bottom: 21%;
+        }
+      }
+    }
+  }
+  // Smart route part
+  .smart_route--part {
+    .smart_route {
+      .left_part {
+        .smart_route--image {
+          width: 27rem;
+        }
+        .smart_route--image-two {
+          width: 13rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .res .research--part .research--part-section {
+    .column-part__one {
+      .small_box {
+        width: 14rem;
+      }
+    }
+    .column-part__three {
+      .small_box {
+        width: 14rem;
+      }
+    }
+  }
+  .regular_motivation--part
+    .motivation--part
+    .left_part
+    .motivation--content
+    .motivation--head,
+  .profile_moivation--two
+    .moivation--two
+    .right_part
+    .motivation--content
+    .motivation--head,
+  .profile_moivation--one
+    .moivation--one
+    .left_part
+    .motivation--content
+    .motivation--head,
+  .profile_moivation--three
+    .moivation--three
+    .left_part
+    .motivation--content
+    .motivation--head {
+    line-height: unset;
+  }
+  .performed_research--part .research--part .right_section .undp_main .border_line1 {
+    right: 5rem;
+}
+}
+@media screen and (max-width: 1150px) {
+  // Home automation icon managing
+  .home_automation--part .automation--part .right_section {
+    .background_img2 {
+      left: 1rem;
+    }
+    .background_img3 {
+      left: -4rem;
+    }
+  }
+  // Project Goals dots management
+  .project_goal {
+    .project_goals--part {
+      .project_goals {
+        .img1 {
+          left: 22rem;
+        }
+      }
+    }
+  }
+  // Community Share Part
+  .community_share--part .share--part {
+    .left_part .share--part-img {
+      margin-top: 2rem;
+      margin-left: -3rem;
+    }
+    .right_part .lower_part .share--part_token {
+      width: 6rem;
+      height: 5rem;
+      .font_icon {
+        font-size: 22px;
+      }
+      .token_text {
+        font-size: 10px;
+      }
+    }
+  }
+  .res .research--part .research--part-section {
+    .column-part__one .small_box {
+      width: 13rem;
+    }
+    .column-part__three .small_box {
+      width: 13rem;
+    }
+  }
+  .performed_research--part .research--part {
+    .left_section .research_sub--part .sub_box {
+      width: 49%;
+    }
+    .right_section .image_sprite1 {
+      left: -6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  // Home automation icon managing
+  .home_automation--part .automation--part .right_section {
+    .background_img2 {
+      left: -2rem;
+    }
+    .background_img4 {
+      right: -5.4rem;
+      top: 10rem;
+    }
+    .background_img5 {
+      left: -6rem;
+    }
+    .mobile_image {
+      width: 20rem;
+      height: 37rem;
+    }
+  }
+  // Reasearch Part Section
+  .res {
+    .research--part {
+      margin-top: 8rem;
+      .research--part-section {
+        justify-content: space-evenly;
+        height: 76%;
+        margin-top: 25rem;
+        margin-bottom: -13rem;
+        .column-part__one {
+          // width: 45%;
+          order: 2;
+          min-height: 45vh;
+          margin-top: 18rem;
+          margin-bottom: 6rem;
+          display: flex;
+          .small_box {
+            width: 15rem;
+            margin-bottom: 2rem;
+            align-items: center;
+            font-size: 12px;
+            height: 4rem;
+          }
+        }
+        .column-part__two {
+          width: 100%;
+          order: 1;
+          margin-top: -7rem;
+        }
+        .column-part__three {
+          order: 3;
+          min-height: 45vh;
+          margin-top: 18rem;
+          margin-bottom: 6rem;
+          .small_box {
+            width: 15rem;
+            margin-bottom: 2rem;
+            align-items: center;
+            font-size: 12px;
+            height: 4rem;
+          }
+        }
+      }
+    }
+  }
+  .performed_research--part .research--part .right_section .undp_main .border_line1 {
+    right: 3rem;
+}
+}
+@media screen and (max-width: 991px) {
+  p {
+    font-size: 1;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  // home automation part
+  .home_automation--part {
+    .automation--part {
+      .left_section {
+        .content-head {
+          .para1 {
+            margin-left: 18px;
+          }
+        }
+        .content-part {
+          .head1 {
+            margin-right: unset;
+          }
+        }
+        .background_img7,
+        .background_img6 {
+          display: none;
+        }
+      }
+      .right_section {
+        .background_img5,
+        .background_img3,
+        .background_img2,
+        .background_img4,
+        .background_img7 {
+          display: none;
+        }
+        .mobile_image {
+          width: 17rem;
+          height: 33rem;
+        }
+        .background_img6 {
+          right: 0rem;
+        }
+      }
+    }
+  }
+  // Project Goal Part
+  .project_goal {
+    .project_goals--part {
+      .project_goals {
+        .img,
+        .img1,
+        .img2 {
+          width: 8rem;
+        }
+        .img {
+          left: 5rem;
+        }
+        .img1 {
+          left: 17rem;
+        }
+        .img2 {
+          right: 5rem;
+        }
+      }
+    }
+  }
+  // Performed research part
+  .performed_research--part {
+    .research--part {
+      .left_section {
+        width: 100%;
+        .research_sub--part {
+          margin-top: 0rem;
+        }
+      }
+      .right_section {
+        width: 100%;
+        margin-top: 4rem;
+        .undp_main {
+          width: 18rem;
+          height: 23rem;
+        }
+        .image_sprite1 {
+          display: none;
+        }
+        .background_img1,
+        .background_img2,
+        .border_line1,
+        .border_line {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // User flow section
+  .user_flow {
+    margin-bottom: unset;
+    margin-top: unset;
+    .user_flows--part {
+      height: unset;
+      margin-top: unset;
+      .row-part__one .box-size .user_para {
+        width: unset;
+      }
+
+      .row-part__one {
+        .pickup_flow_part {
+          width: 50%;
+          align-items: unset;
+        }
+        .box-size {
+          width: 50%;
+        }
+        .flow_part {
+          width: 40%;
+          position: relative;
+          top: 8rem;
+        }
+      }
+      .row-part__two {
+        .flow_part {
+          width: 40%;
+          position: relative;
+          top: 7rem;
+        }
+        .flow_part_content {
+          width: 40%;
+          justify-content: unset;
+          align-items: flex-end;
+        }
+        .width_second {
+          width: 100%;
+        }
+      }
+      .row-part__three {
+        width: 84%;
+        margin-top: 7rem;
+        margin-left: 0rem;
+
+        div:nth-child(2) {
+          align-items: flex-end;
+        }
+        .flow_part {
+          align-items: unset;
+          margin-left: unset;
+        }
+      }
+    }
+  }
+  // Community Share Part
+  .community_share--part {
+    min-height: 80vh;
+    .share--part {
+      .right_part {
+        .upper_part {
+          .motivation--content .motivation--head {
+            line-height: unset;
+          }
+        }
+        .lower_part {
+          left: 0rem;
+        }
+      }
+    }
+  }
+  // Regular motivation Part
+  .regular_motivation--part {
+    .motivation--part {
+      .left_part {
+        .motivation--content {
+          width: 100%;
+        }
+      }
+      .right_part {
+        .box-one,
+        .box-two,
+        .box-three {
+          display: none;
+        }
+      }
+    }
+  }
+  // Smart route Part
+  .smart_route--part {
+    .smart_route {
+      .right_part .pickup_content {
+        width: 100%;
+        padding-left: 6rem;
+        .motivation--head {
+          line-height: unset;
+        }
+        .motivation--desc {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  // Profile motivation part one
+  .profile_moivation--one {
+    .moivation--one {
+      min-height: 80vh;
+
+      .right_part {
+        .image_one {
+          width: 16rem;
+          left: -6rem;
+        }
+        .image_two {
+          width: 23rem;
+        }
+      }
+    }
+  }
+
+  // Profile motivation part two
+  .profile_moivation--two {
+    .moivation--two {
+      min-height: 80vh;
+
+      .left_part {
+        .image_one {
+          width: 26rem;
+        }
+        .image_two {
+          display: none;
+        }
+        .image_three {
+          display: none;
+        }
+      }
+      .right_part {
+        margin-bottom: unset;
+        margin-top: -6rem;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .res .research--part .research--part-section {
+    // justify-content: space-between;
+  }
+}
+@media screen and (max-width: 950px) {
+  .user_person {
+    .user_persona--part {
+      .user_persona {
+        margin-top: unset;
+
+        .user_box {
+          .persona_sec--part {
+            .border_line1,  .color_props1, .border_line, .color_props2, .color_props3 {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 875px) {
+
+.res .research--part .research--part-section {
+  justify-content: space-between;
+}
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  // Home Automation part
+  .home_automation--part {
+    .automation--part {
+      .left_section .content-part .head1 {
+        font-size: 1.4rem;
+      }
+      .right_section {
+        .mobile_image {
+          width: 14rem;
+          height: 29rem;
+        }
+      }
+    }
+  }
+  // Project goal part
+  .project_goal {
+    .project_goals--part {
+      .project_goals .img1,
+      .img,
+      .img2 {
+        display: none;
+      }
+    }
+  }
+  // Challenges Part
+  .challenge--part {
+    .challenges--part {
+      .para1 {
+        width: 100%;
+        font-size: 14px;
+      }
+      .head2 {
+        line-height: unset;
+        font-size: 16px;
+      }
+      .background_img4 {
+        display: none;
+      }
+    }
+  }
+
+  // Performed research part
+  .performed_research--part {
+    .research--part {
+      .left_section {
+        .research_sub--part {
+          margin-top: 0rem;
+          .sub_box {
+            width: 78%;
+          }
+        }
+        .upper_part {
+          .background_img3 {
+            display: none;
+          }
+        }
+      }
+      .right_section {
+        .image_sprite1,
+        .background_img1,
+        .background_img2 {
+          display: none;
+        }
+      }
+    }
+  }
+  // User persona part
+  .user_person {
+    .user_persona--part {
+      .persona_heading {
+        text-align: center;
+      }
+      .user_persona .user_box .persona_sec--part {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  //   Profile motivation one
+  .profile_moivation--one {
+    min-height: 80vh;
+    .moivation--one {
+      margin-bottom: 5rem;
+      .left_part .motivation--content .motivation--head {
+        line-height: unset;
+      }
+      .right_part {
+        .image_one {
+          width: 13rem;
+          left: -6rem;
+        }
+
+        .image_two {
+          width: 20rem;
+          top: -6rem;
+        }
+      }
+    }
+  } //   Profile motivation two
+  .profile_moivation--two {
+    min-height: 80vh;
+    .moivation--two {
+      margin-bottom: -4rem;
+      .left_part {
+        .image_one {
+          width: 22rem;
+          left: -3rem;
+        }
+      }
+      .right_part {
+        .motivation--content .motivation--head {
+          line-height: unset;
+        }
+      }
+    }
+  }
+  //   Profile motivation three
+  .profile_moivation--three {
+    min-height: 80vh;
+    .moivation--three {
+      .left_part {
+        .motivation--content .motivation--head {
+          line-height: unset;
+        }
+      }
+      .right_part {
+        .image_one {
+          width: 13rem;
+          left: -3rem;
+        }
+        .image_two {
+          width: 22rem;
+        }
+      }
+    }
+  }
+  // Community Share Part
+  .community_share--part {
+    min-height: 80vh;
+    .share--part {
+      .left_part {
+        .share--part-img {
+          width: 22rem;
+        }
+      }
+      .right_part {
+        .upper_part .motivation--content {
+          width: 100%;
+        }
+        .lower_part {
+          margin-top: 0rem;
+        }
+      }
+    }
+  }
+  //   Regular Motivation Part
+  .regular_motivation--part {
+    .motivation--part {
+      min-height: 80vh;
+      .left_part .motivation--content .motivation--head {
+        line-height: unset;
+      }
+      .right_part {
+        .phone_image {
+          width: 22rem;
+        }
+        .card_image {
+          width: 22rem;
+        }
+      }
+    }
+  }
+  // Smart route image size
+  .smart_route--part {
+    .smart_route {
+      min-height: 80vh;
+      .left_part {
+        width: 50%;
+        .smart_route--image {
+          width: 22rem;
+        }
+        .smart_route--image-two {
+          display: none;
+        }
+      }
+      .right_part {
+        width: 50%;
+        .pickup_content {
+          padding-left: unset;
+        }
+      }
+    }
+  }
+  // Color Part Width handling
+  .main_color--part {
+    .lower_part {
+      margin-bottom: 3rem;
+      .color_part {
+        margin-bottom: -2rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .res .research--part .research--part-section {
+    .column-part__one .small_box {
+      width: 14rem;
+    }
+    .column-part__three .small_box {
+      width: 14rem;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  // Home automation part
+  .home_automation--part {
+    margin-top: -3rem;
+    .background_img {
+      width: 573px;
+      height: 503px;
+    }
+    .automation--part {
+      .left_section {
+        width: 100%;
+        margin-top: 6rem;
+      }
+      .right_section {
+        width: 100%;
+        justify-content: center;
+        .mobile_image {
+          width: 16rem;
+          height: 29rem;
+        }
+        .background_img6 {
+          display: none;
+        }
+      }
+    }
+  }
+  // Project goal part
+  .project_goal {
+    .project_goals--part {
+      .project_goals {
+        .project_goals--box {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  // User flow part
+  .user_flow {
+    .user_flows--part {
+      .row-part__one {
+        .box-size {
+          width: 100%;
+        }
+        .flow_part {
+          position: inherit;
+          width: 100%;
+          top: 3rem;
+        }
+        .pickup_flow_part {
+          width: 100%;
+          align-items: center;
+          margin-top: 7rem;
+        }
+      }
+      .row-part__two {
+        .flow_part {
+          width: 100%;
+          position: relative;
+          top: 5rem;
+          align-items: center;
+        }
+        .flow_part_content {
+          width: 100%;
+          align-items: center;
+          margin-top: 10rem;
+        }
+        .flow_part_content.width_second {
+          margin-top: 5rem !important;
+        }
+      }
+      .row-part__three {
+        margin-left: 1.5rem;
+        div:nth-child(2) {
+          align-items: center;
+        }
+        .flow_part {
+          width: 100%;
+          align-items: center;
+          margin-bottom: 5rem;
+          .pickup_content {
+            width: 13rem;
+            height: 13rem;
+          }
+        }
+      }
+    }
+  }
+  .challenge--part .challenges--part,
+  .user_flow {
+    margin-top: 4rem;
+  }
+  // performed research part
+  .performed_research--part {
+    .research--part {
+      .right_section {
+        justify-content: center;
+        .undp_main {
+          height: 21rem;
+          width: 16rem;
+        }
+      }
+    }
+  }
+  .res .research--part {
+    margin-top: 0rem;
+  }
+  //   Profile motivation one
+  .profile_moivation--one {
+    .moivation--one {
+      .left_part {
+        width: 100%;
+        .motivation--content {
+          width: 100%;
+        }
+      }
+      .right_part {
+        width: 100%;
+        margin-top: 4rem;
+      }
+    }
+  } //   Profile motivation two
+  .profile_moivation--two {
+    .moivation--two {
+      .left_part {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin-left: 6rem;
+      }
+      .right_part {
+        width: 100%;
+        margin-top: 0rem;
+        .color_props1 {
+          display: block;
+          top: 0rem;
+        }
+        .color_props2 {
+          display: block;
+          top: 3rem;
+        }
+        .motivation--content {
+          width: 100%;
+        }
+      }
+    }
+  }
+  //   Profile motivation three
+  .profile_moivation--three {
+    .moivation--three {
+      .left_part {
+        margin-top: 4rem;
+        width: 100%;
+        .motivation--content {
+          width: 100%;
+        }
+      }
+      .right_part {
+        width: 100%;
+        .color_props1 {
+          top: unset;
+        }
+        .image_one {
+          left: 0rem;
+        }
+      }
+    }
+  }
+  // Regular motivaiton part
+  .regular_motivation--part .motivation--part {
+    .left_part {
+      width: 100%;
+      .motivation--content {
+        width: 100%;
+      }
+    }
+    .right_part {
+      width: 100%;
+      .phone_image {
+        margin-left: -5rem;
+      }
+    }
+  }
+  // Community Share part
+  .community_share--part .share--part {
+    .left_part {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .right_part {
+      width: 100%;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      .lower_part {
+        left: -2rem;
+      }
+    }
+  }
+  // Smart Route Part
+  .smart_route--part .smart_route {
+    .left_part {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      .smart_route--image {
+        width: 23rem;
+        left: 0rem;
+      }
+    }
+    .right_part {
+      width: 100%;
+      .pickup_content {
+        width: 100%;
+      }
+    }
+  }
+  // main color part
+  .main_color--part {
+    .lower_part {
+      .color_part .color_part--image {
+        width: 180px;
+      }
+    }
+    .upper_part .color_head {
+      font-size: 21px;
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .res .research--part .research--part-section {
+    .column-part__one {
+      width: 100%;
+      margin-bottom: 0rem;
+      display: flex;
+      align-items: center;
+    }
+    .column-part__three {
+      width: 100%;
+      margin-top: 0rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+  .home_automation--part {
+    .background_img {
+      display: none;
+    }
+  }
+  .performed_research--part
+    .research--part
+    .left_section
+    .research_sub--part
+    .sub_box {
+    width: 100%;
+  }
+  // User perona part
+  .user_person {
+    .user_persona--part {
+      .user_persona .user_box {
+        .persona_sec--part {
+          width: 100%;
+          .persona_detail {
+            padding: 12px;
+          }
+        }
+      }
+    }
+  }
+  // Regular motivation part
+  .regular_motivation--part {
+    .motivation--part {
+      .right_part {
+        .card_image {
+          width: 17rem;
+        }
+      }
+    }
+  }
+  .profile_moivation--three .moivation--three .right_part .image_one {
+    left: -4rem;
+  }
+  .community_share--part .share--part {
+    .left_part {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+    }
+  }
+  .smart_route--part .smart_route {
+    .left_part {
+      .smart_route--image {
+        left: 3rem;
+      }
+    }
+  }
+  .profile_moivation--one .moivation--one .right_part {
+    .image_one {
+      left: -4rem;
+    }
+    .image_two {
+      right: 0%;
+    }
+  }
+  .res .research--part {
+    .research--part-section {
+      .column-part__one {
+        margin-top: 12rem;
+        width: 100%;
+      }
+      .column-part__two {
+        margin-top: -13rem;
+        .image_one {
+          width: 19rem;
+        }
+        .image_two {
+          width: 16rem;
+        }
+        .image_three {
+          width: 14.5rem;
+        }
+      }
+      .column-part__three {
+        margin-top: 0rem;
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  // Alignment of Color Div Center
+  .main_color--part {
+    .lower_part {
+      .color_part {
+        .color_heading {
+          font-size: 15px;
+        }
+        .color_part--image {
+          width: 130px;
+        }
+        .color_name {
+          font-size: 14px;
+
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  // Project goal part
+  .project_goal {
+    .project_goals--part {
+      width: 100%;
+    }
+  }
+  // Smart route part
+  .smart_route--part .smart_route {
+    .left_part {
+      .smart_route--image {
+        left: 5rem;
+      }
+    }
+  }
+  // Community Share part
+  .community_share--part {
+    .share--part {
+      .right_part {
+        .lower_part {
+          width: 139%;
+        }
+      }
+    }
+  }
+
+  // Alignment of Color Div Center
+  .main_color--part {
+    .lower_part {
+      .color_part {
+        .color_part--image {
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  // main color part
+  .main_color--part .lower_part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  // Peformed research part
+  .performed_research--part .research--part {
+    .left_section .research_sub--part {
+      margin-top: unset;
+      .sub_box {
+        width: 100%;
+      }
+      .sub_part .color1,
+      .color2 {
+        line-height: 3rem;
+      }
+    }
+    .right_section .undp_main {
+      height: 22rem;
+      width: 14rem;
+    }
+  }
+  .profile_moivation--one .moivation--one .left_part .motivation--content,
+  .profile_moivation--two .moivation--two .right_part .motivation--content,
+  .profile_moivation--three .moivation--three .left_part .motivation--content,
+  .community_share--part
+    .share--part
+    .right_part
+    .upper_part
+    .motivation--content,
+  .regular_motivation--part .motivation--part .left_part .motivation--content,
+  .smart_route--part .smart_route .right_part .pickup_content {
+    width: 100%;
+  }
+  .profile_moivation--two .moivation--two .left_part .image_one,
+  .profile_moivation--one .moivation--one .right_part .image_two,
+  .profile_moivation--three .moivation--three .right_part .image_two,
+  .community_share--part .share--part .left_part .share--part-img,
+  .smart_route--part .smart_route .left_part .smart_route--image {
+    width: 18rem;
+  }
+  .smart_route--part .smart_route .left_part .smart_route--image-two,
+  .regular_motivation--part .motivation--part .right_part .card_image,
+  .regular_motivation--part .motivation--part .right_part .card_image {
+    display: none;
+  }
+  .main_color--part .lower_part .color_part .color_part--image {
+    width: 150px;
+  }
+  .regular_motivation--part .motivation--part .right_part .phone_image {
+    width: 18rem;
+    margin-left: -4rem;
+  }
+  .community_share--part .share--part .right_part .lower_part {
+    left: unset;
+    top: unset;
+  }
+  .community_share--part .share--part .left_part .share--part-img,
+  .profile_moivation--two .moivation--two .left_part .image_one {
+    margin-left: 0rem;
+  }
+
+  // Motivation part
+  .profile_moivation--one .moivation--one {
+    margin-bottom: unset;
+  }
+  // Motivation part
+  .profile_moivation--two .moivation--two .left_part .image_one {
+    margin-left: 0rem;
+  }
+  // Motivation part
+  .profile_moivation--three .moivation--three .right_part .image_one {
+    left: -64px;
+    top: 56px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  // IPhone Settings
+
+  // Home Automation part
+  .home_automation--part .automation--part {
+    min-height: 58vh;
+  }
+  // Project goal part
+  .project_goal .project_goals--part {
+    min-height: 26vh;
+  }
+  // Challenge part
+  .challenge--part .challenges--part {
+    min-height: 34vh;
+  }
+  // Performed research part
+  .performed_research--part .research--part {
+    min-height: 76vh;
+  }
+  // User flow part
+  .user_flow .user_flows--part {
+    min-height: 68vh;
+  }
+  // Motivation part
+  .profile_moivation--one .moivation--one,
+  .profile_moivation--two .moivation--two,
+  .profile_moivation--three .moivation--three,
+  .community_share--part .share--part,
+  .regular_motivation--part .motivation--part,
+  .smart_route--part .smart_route {
+    min-height: 80vh;
+  }
+}
